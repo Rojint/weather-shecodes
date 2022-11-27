@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5f0d94f57e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home work #1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Nunito", sans-serif;
+      }
+      .container {
+        text-align: center;
+      }
+
+      li,
+      h3 {
+        display: inline;
+      }
+
+      .header {
+        color: #1a64d6;
+        font-size: 28px;
+        line-height: 50px;
+      }
+
+      h2 {
+        font-weight: 100;
+        margin-bottom: 20px;
+        margin-top: 10px;
+      }
+
+      li {
+        margin: 10px auto;
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 18px;
+        margin-bottom: 40px;
+        margin-top: 15px;
+        color: rgb(99, 95, 95);
+      }
+
+      .btn {
+        padding: 20px;
+        background-color: #1a64d6;
+        color: white;
+        font-size: 18px;
+        border-radius: 30px;
+        border: 1px solid #1a64d6;
+        transition: all 200ms ease-in-out;
+      }
+
+      .btn:hover {
+        background-color: white;
+        color: #1a64d6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <i class="fa-solid fa-cloud-sun"></i>
+        <br />
+        <h1>Currently 21° in Tokyo</h1>
+      </div>
+
+      <h2>13° / <strong> 23° </strong></h2>
+      <ul>
+        <li>
+          <i class="fa-solid fa-cloud-rain"></i>
+          <h3>Tomorrow</h3>
+          <p>10° / <strong> 22° </strong></p>
+        </li>
+
+        <li>
+          <i class="fa-solid fa-cloud-sun"></i>
+          <h3>Saturday</h3>
+          <p>15° / <strong> 17° </strong></p>
+        </li>
+
+        <li>
+          <i class="fa-solid fa-sun"></i>
+          <h3>Sunday</h3>
+          <p>25° / <strong> 28° </strong></p>
+        </li>
+      </ul>
+
+      <button class="btn">Change city</button>
+
+      <p class="footer">coded by Rozhin</p>
+    </div>
+  </body>
+</html>
