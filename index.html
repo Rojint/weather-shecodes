@@ -26,7 +26,6 @@
         text-align: center;
       }
 
-      li,
       h3 {
         display: inline;
       }
@@ -44,8 +43,18 @@
       }
 
       li {
-        margin: 10px auto;
         font-size: 1.3rem;
+        transition: all 200ms ease-in-out;
+        text-align: center;
+        list-style: none;
+        border-radius: 15px;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 10px 0;
+      }
+
+      li:hover {
+        background: #f5f3ec;
       }
 
       p {
@@ -56,6 +65,8 @@
       }
 
       .btn {
+        display: block;
+        margin: 20px auto;
         padding: 20px;
         background-color: #1a64d6;
         color: white;
@@ -63,11 +74,14 @@
         border-radius: 30px;
         border: 1px solid #1a64d6;
         transition: all 200ms ease-in-out;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
       }
 
       .btn:hover {
         background-color: white;
         color: #1a64d6;
+        border: 1px solid #1a64d6;
       }
     </style>
   </head>
